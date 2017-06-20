@@ -1,0 +1,60 @@
+"*":
+  "Remote-FTP":
+    showViewOnStartup: false
+  "atom-material-ui":
+    colors:
+      abaseColor: "#3f3e3a"
+      accentColor: "#dcd8d0"
+    fonts:
+      fontSize: 14
+    tabs:
+      compactTabs: true
+    ui:
+      panelContrast: true
+      panelShadows: true
+  "base16-syntax": {}
+  core:
+    disabledPackages: [
+      "remote-sync"
+      "language-javascript-jsx"
+    ]
+    openEmptyEditorOnStart: false
+    telemetryConsent: "limited"
+    themes: [
+      "atom-material-ui"
+      "base16-syntax"
+    ]
+    warnOnLargeFileLimit: 1
+  editor:
+    fontFamily: "ubuntu mono"
+    fontSize: 13
+    lineHeight: 1
+    scrollPastEnd: true
+    showIndentGuide: true
+  "exception-reporting":
+    userId: "b0562c41-5160-42cd-b152-e96a2623aee6"
+  "file-icons": {}
+  minimap:
+    absoluteMode: true
+    charHeight: 1
+    plugins:
+      "git-diff": true
+      "git-diffDecorationsZIndex": 0
+      "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0
+  "seti-syntax":
+    dynamicColor: false
+    themeColor: "Pink"
+  "seti-ui":
+    compactView: true
+    themeColor: "Steel"
+  welcome:
+    showOnStartup: false
+".blade.html.php.text":
+  editor:
+    commentEnd: " --}}"
+    commentStart: "{{-- "
+    tabLength: 4
+".html.php.text":
+  editor:
+    tabLength: 4
