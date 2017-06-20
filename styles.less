@@ -69,7 +69,7 @@ atom-text-editor .indent-guide {
 }
 
 atom-text-editor .syntax--comment {
-  color: #444444
+  color: #595959
 }
 
 .atom-dock-toggle-button-visible.left {
@@ -77,18 +77,43 @@ atom-text-editor .syntax--comment {
 }
 
 
-// icon color on top
-.amu-tinted-tab-bar atom-pane .tab-bar .tab .title[data-path]::before {
-  // color: unset !important;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// SYNTAX HIGHLIGHT
+
+.syntax--variable.syntax--language.syntax--this {
+  color: #cd3a26;
 }
-
-atom-pane .tab-bar .tab .title[data-path]::before {
-  // color: initial !important;
-  // color: initial !important;
+.syntax--variable.syntax--other.syntax--readwrite {
+  color: #dcdcdc;
 }
-
-// atom-pane .tab-bar .tab .title[data-path]::before {
-//   color: initial !important;
-// }
-
-// atom-pane .tab-bar .tab .title[data-path]::before
+.syntax--variable.syntax--other {
+  color: #c16931;
+}
+.syntax--support.syntax--variable.syntax--property.syntax--dom {
+  color: #c16931;
+}
+.syntax--keyword, .syntax--storage,
+.syntax--keyword.syntax--operator.syntax--logical,
+.syntax--keyword.syntax--operator.syntax--comparison {
+  color: #8e6cbf;
+}
+.syntax--keyword.syntax--operator {
+  color: #dcdcdc;
+}
+.syntax--string.syntax--unquoted {
+  color: #ecca78;
+}
