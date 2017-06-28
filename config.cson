@@ -1,9 +1,13 @@
 "*":
   "Remote-FTP":
     showViewOnStartup: false
+  "atom-beautify":
+    general:
+      _analyticsUserId: "341d26aa-d0aa-4992-aa5f-9f80c4cb2802"
+    php: {}
   "atom-material-ui":
     colors:
-      abaseColor: "#3f3e3a"
+      abaseColor: "#403f3a"
       accentColor: "#dcd8d0"
     fonts:
       fontSize: 14
@@ -17,6 +21,7 @@
     disabledPackages: [
       "remote-sync"
       "language-javascript-jsx"
+      "atom-beautify"
     ]
     openEmptyEditorOnStart: false
     telemetryConsent: "limited"
@@ -25,6 +30,10 @@
       "base16-syntax"
     ]
     warnOnLargeFileLimit: 1
+  docblockr:
+    auto_add_method_tag: true
+    deep_indent: true
+    extend_double_slash: false
   editor:
     fontFamily: "ubuntu mono"
     fontSize: 12
@@ -42,6 +51,8 @@
       "git-diffDecorationsZIndex": 0
       "highlight-selected": true
       "highlight-selectedDecorationsZIndex": 0
+  "minimap-git-diff":
+    useGutterDecoration: true
   pigments:
     markerType: "background"
   "seti-syntax":
@@ -50,6 +61,13 @@
   "seti-ui":
     compactView: true
     themeColor: "Steel"
+  "todo-show":
+    ignoreThesePaths: [
+      "node_modules"
+      "vendor"
+      "bower_components"
+      "libs"
+    ]
   welcome:
     showOnStartup: false
 ".blade.html.php.text":

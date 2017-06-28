@@ -76,6 +76,10 @@ atom-text-editor .syntax--comment {
   display: none;
 }
 
+.tab-bar .tab.modified:not(:hover) .close-icon {
+  background-color: white;
+  // top: calc(50% - .7em);
+}
 
 
 
@@ -98,7 +102,7 @@ atom-text-editor .syntax--comment {
   color: #cd3a26;
 }
 .syntax--variable.syntax--other.syntax--readwrite {
-  color: #dcdcdc;
+  color: #d2d2d2;
 }
 .syntax--variable.syntax--other {
   color: #c16931;
@@ -112,8 +116,17 @@ atom-text-editor .syntax--comment {
   color: #8e6cbf;
 }
 .syntax--keyword.syntax--operator {
-  color: #dcdcdc;
+  color: #d2d2d2;
 }
 .syntax--string.syntax--unquoted {
-  color: #ecca78;
+  color: #d9cd7a;
+}
+.syntax--punctuation.syntax--section.syntax--embedded.syntax--begin.syntax--jsx,
+.syntax--punctuation.syntax--section.syntax--embedded.syntax--end.syntax--jsx {
+  // color: white;
+  color: #cd3a26;
+}
+
+.syntax--punctuation.syntax--definition.syntax--variable.syntax--php {
+  color: #9d3d00;;
 }
