@@ -1,0 +1,77 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/tmp/d-117721-21928-f0hjpg.dd4s32qpvi/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/tmp/d-117721-21928-f0hjpg.dd4s32qpvi/package.tgz",
+        "spec": "/tmp/d-117721-21928-f0hjpg.dd4s32qpvi/package.tgz",
+        "type": "local"
+      },
+      "/tmp/apm-install-dir-117721-21928-e8i7ok.jclu8zolxr"
+    ]
+  ],
+  "_from": "../d-117721-21928-f0hjpg.dd4s32qpvi/package.tgz",
+  "_id": "block-comment@0.4.3",
+  "_inCache": true,
+  "_location": "/block-comment",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/tmp/d-117721-21928-f0hjpg.dd4s32qpvi/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/tmp/d-117721-21928-f0hjpg.dd4s32qpvi/package.tgz",
+    "spec": "/tmp/d-117721-21928-f0hjpg.dd4s32qpvi/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-117721-21928-f0hjpg.dd4s32qpvi/package.tgz",
+  "_shasum": "348c6e63bdafd0995a90e5740d0f703277c8d7a8",
+  "_shrinkwrap": null,
+  "_spec": "/tmp/d-117721-21928-f0hjpg.dd4s32qpvi/package.tgz",
+  "_where": "/tmp/apm-install-dir-117721-21928-e8i7ok.jclu8zolxr",
+  "activationCommands": {
+    "atom-text-editor": [
+      "block-comment:toggle"
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/RayKwon/atom-block-comment/issues"
+  },
+  "dependencies": {},
+  "description": "Block comment",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "homepage": "https://github.com/RayKwon/atom-block-comment#readme",
+  "license": "MIT",
+  "main": "./lib/block-comment",
+  "name": "block-comment",
+  "optionalDependencies": {},
+  "readme": "# block-comment package\n\nBlock comment/uncomment\n\nCtrl + Alt + Cmd + /\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RayKwon/atom-block-comment.git"
+  },
+  "version": "0.4.3",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".coffee": [
+        "lib/block-comment.coffee"
+      ],
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}

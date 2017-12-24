@@ -11,7 +11,8 @@
       |(?<![A-Za-z0-9_@])
        @
        (?:
-        (?i)can
+        (?i)auth
+       |(?i)can
        |(?i)cannot
        |(?i)component
        |(?i)else
@@ -22,6 +23,7 @@
        |(?i)for
        |(?i)foreach
        |(?i)forelse
+       |(?i)guest
        |(?i)hasSection
        |(?i)if
        |(?i)isset
@@ -62,6 +64,7 @@
          |(?i)elsecannot
          |(?i)elseif
          |(?i)empty
+         |(?i)endauth
          |(?i)endcan
          |(?i)endcannot
          |(?i)endcomponent
@@ -69,6 +72,7 @@
          |(?i)endfor
          |(?i)endforeach
          |(?i)endforelse
+         |(?i)endguest
          |(?i)endif
          |(?i)endisset
          |(?i)endlang

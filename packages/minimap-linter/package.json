@@ -1,0 +1,133 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/tmp/d-117928-11620-3a0gz2.bt94szto6r/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/tmp/d-117928-11620-3a0gz2.bt94szto6r/package.tgz",
+        "spec": "/tmp/d-117928-11620-3a0gz2.bt94szto6r/package.tgz",
+        "type": "local"
+      },
+      "/tmp/apm-install-dir-117928-11620-bsp0ek.8pmk1brzfr"
+    ]
+  ],
+  "_from": "../d-117928-11620-3a0gz2.bt94szto6r/package.tgz",
+  "_id": "minimap-linter@2.1.3",
+  "_inCache": true,
+  "_location": "/minimap-linter",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/tmp/d-117928-11620-3a0gz2.bt94szto6r/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/tmp/d-117928-11620-3a0gz2.bt94szto6r/package.tgz",
+    "spec": "/tmp/d-117928-11620-3a0gz2.bt94szto6r/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-117928-11620-3a0gz2.bt94szto6r/package.tgz",
+  "_shasum": "7fc542d4084c090c5f3b61fc1ed261d975826d8f",
+  "_shrinkwrap": null,
+  "_spec": "/tmp/d-117928-11620-3a0gz2.bt94szto6r/package.tgz",
+  "_where": "/tmp/apm-install-dir-117928-11620-bsp0ek.8pmk1brzfr",
+  "bugs": {
+    "url": "https://github.com/AtomLinter/atom-minimap-linter/issues"
+  },
+  "configSchema": {
+    "markerType": {
+      "type": "string",
+      "default": "line",
+      "enum": [
+        "line",
+        "gutter",
+        "highlight-under",
+        "highlight-over",
+        "highlight-outline"
+      ],
+      "description": "Marker type for linter highlights"
+    }
+  },
+  "consumedServices": {
+    "minimap": {
+      "versions": {
+        "1.0.0": "consumeMinimapServiceV1"
+      }
+    },
+    "diagnostics-store": {
+      "versions": {
+        "0.3.0": "consumeDiagnosticUpdates"
+      }
+    }
+  },
+  "dependencies": {
+    "atom-package-deps": "^4.5.0"
+  },
+  "description": "Minimap display for Linter messages",
+  "devDependencies": {
+    "eslint": "^4.9.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.7.0",
+    "jasmine-fix": "^1.0.1"
+  },
+  "engines": {
+    "atom": ">=1.4.0 <2.0.0"
+  },
+  "eslintConfig": {
+    "extends": "airbnb-base",
+    "rules": {
+      "global-require": "off",
+      "import/no-unresolved": [
+        "error",
+        {
+          "ignore": [
+            "atom"
+          ]
+        }
+      ]
+    },
+    "globals": {
+      "atom": true
+    },
+    "env": {
+      "node": true,
+      "browser": true
+    }
+  },
+  "homepage": "https://github.com/AtomLinter/atom-minimap-linter#readme",
+  "keywords": [
+    "atom",
+    "minimap",
+    "linter"
+  ],
+  "license": "MIT",
+  "main": "./lib/minimap-linter.js",
+  "name": "minimap-linter",
+  "optionalDependencies": {},
+  "package-deps": [
+    "linter:2.1.1"
+  ],
+  "private": true,
+  "providedServices": {
+    "linter-ui": {
+      "versions": {
+        "1.0.0": "provideUI"
+      }
+    }
+  },
+  "readme": "# minimap-linter package\n\nA plugin for [minimap][] that shows the messages from [linter][] and\n[atom-ide-ui][], allowing you to get a quick overview of where you have lint\nissues in your code.\n\n![minimap-linter](https://raw.githubusercontent.com/nesukun/atom-minimap-linter/master/minimap-linter.gif)\n\n[minimap]: https://atom.io/packages/minimap\n[linter]: https://atom.io/packages/linter\n[atom-ide-ui]: https://atom.io/packages/atom-ide-ui\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AtomLinter/atom-minimap-linter.git"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "test": "apm test"
+  },
+  "version": "2.1.3"
+}

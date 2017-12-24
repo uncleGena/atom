@@ -34,23 +34,23 @@ atom-text-editor .cursor {
 
 /* Reduce tree view size a bit */
 .tree-view {
-  li:not(.list-nested-item), li.list-nested-item > .list-item {
-    line-height: 1.5rem;
-  }
-  .list-nested-item .selected::before {
-    height: 2em;
-  }
-  .project-root {
-    &::before {
-      height: 2.5em;
-    }
-    > .header {
-      height: 1.75rem;
-      span, &::before {
-          line-height: 1.75rem;
-      }
-    }
-  }
+  // li:not(.list-nested-item), li.list-nested-item > .list-item {
+  //   line-height: 1.5rem;
+  // }
+  // .list-nested-item .selected::before {
+  //   height: 2em;
+  // }
+  // .project-root {
+  //   &::before {
+  //     height: 2.5em;
+  //   }
+  //   > .header {
+  //     height: 1.75rem;
+  //     span, &::before {
+  //         line-height: 1.75rem;
+  //     }
+  //   }
+  // }
 }
 
 
@@ -77,15 +77,18 @@ atom-text-editor .syntax--comment {
 }
 
 .tab-bar .tab.modified:not(:hover) .close-icon {
-  background-color: white;
+  // background-color: white;
   // top: calc(50% - .7em);
 }
 
+atom-panel-container.bottom > atom-dock > div > div.atom-dock-mask {
+  display: none;
+}
 
-
-
-
-
+div.line-number.foldable.folded > div.icon-right {
+  opacity: 1;
+  color: white;
+}
 
 
 

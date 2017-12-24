@@ -2,39 +2,39 @@
   "_args": [
     [
       {
-        "raw": "/tmp/d-117519-10015-zioijy.z4zjgu8fr/package.tgz",
+        "raw": "/tmp/d-117614-4467-eiyo4k.uttf1ug14i/package.tgz",
         "scope": null,
         "escapedName": null,
         "name": null,
-        "rawSpec": "/tmp/d-117519-10015-zioijy.z4zjgu8fr/package.tgz",
-        "spec": "/tmp/d-117519-10015-zioijy.z4zjgu8fr/package.tgz",
+        "rawSpec": "/tmp/d-117614-4467-eiyo4k.uttf1ug14i/package.tgz",
+        "spec": "/tmp/d-117614-4467-eiyo4k.uttf1ug14i/package.tgz",
         "type": "local"
       },
-      "/tmp/apm-install-dir-117519-10015-1vo9v5h.ex9tchaor"
+      "/tmp/apm-install-dir-117614-4467-l5amna.8e2z5v1jor"
     ]
   ],
-  "_from": "../d-117519-10015-zioijy.z4zjgu8fr/package.tgz",
-  "_id": "open-terminal-here@2.3.0",
+  "_from": "../d-117614-4467-eiyo4k.uttf1ug14i/package.tgz",
+  "_id": "open-terminal-here@2.3.1",
   "_inCache": true,
   "_location": "/open-terminal-here",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "/tmp/d-117519-10015-zioijy.z4zjgu8fr/package.tgz",
+    "raw": "/tmp/d-117614-4467-eiyo4k.uttf1ug14i/package.tgz",
     "scope": null,
     "escapedName": null,
     "name": null,
-    "rawSpec": "/tmp/d-117519-10015-zioijy.z4zjgu8fr/package.tgz",
-    "spec": "/tmp/d-117519-10015-zioijy.z4zjgu8fr/package.tgz",
+    "rawSpec": "/tmp/d-117614-4467-eiyo4k.uttf1ug14i/package.tgz",
+    "spec": "/tmp/d-117614-4467-eiyo4k.uttf1ug14i/package.tgz",
     "type": "local"
   },
   "_requiredBy": [
     "#USER"
   ],
-  "_resolved": "file:../d-117519-10015-zioijy.z4zjgu8fr/package.tgz",
-  "_shasum": "b3cdab9054f5039048806e11ebc18fab68ccf9f8",
+  "_resolved": "file:../d-117614-4467-eiyo4k.uttf1ug14i/package.tgz",
+  "_shasum": "49108288638afe91e1048ae8cf0552d096a44f01",
   "_shrinkwrap": null,
-  "_spec": "/tmp/d-117519-10015-zioijy.z4zjgu8fr/package.tgz",
-  "_where": "/tmp/apm-install-dir-117519-10015-1vo9v5h.ex9tchaor",
+  "_spec": "/tmp/d-117614-4467-eiyo4k.uttf1ug14i/package.tgz",
+  "_where": "/tmp/apm-install-dir-117614-4467-l5amna.8e2z5v1jor",
   "activationCommands": {
     ".tree-view .selected, atom-text-editor, atom-workspace": [
       "open-terminal-here:open"
@@ -62,7 +62,7 @@
     "type": "git",
     "url": "git+https://github.com/blueimp/atom-open-terminal-here.git"
   },
-  "version": "2.3.0",
+  "version": "2.3.1",
   "_atomModuleCache": {
     "version": 1,
     "dependencies": [],

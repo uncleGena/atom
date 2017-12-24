@@ -46,6 +46,14 @@ parse_function:
         - public static function foo() {}
         - ['foo', null, null]
     -
+        - should parse final function
+        - final function foo() {}
+        - ['foo', null, null]
+    -
+        - should parse final public function
+        - final public function foo() {}
+        - ['foo', null, null]
+    -
         - should return null, because this is an invalid function declaration
         - export function foo() {}
         - null
@@ -172,3 +180,13 @@ parse:
         - should parse var first
         - "$foo;\nfunction bar() {}"
         - ['${1:[$foo description]}', '@var ${1:[type]}']
+
+parse_args:
+    -
+        - should parse array bracket syntax
+        - function foo($bar = [1, 2, 3]) {}
+        - [['array', '$bar']]
+    -
+        - should parse multi-dimensional array
+        - function foo($bar = [1, [2, 3]]) {}
+        - [['array', '$bar']]

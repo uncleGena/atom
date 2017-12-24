@@ -2,39 +2,39 @@
   "_args": [
     [
       {
-        "raw": "/tmp/d-117526-3514-h5i3h0.xcqxkfn7b9/package.tgz",
+        "raw": "/tmp/d-117118-22991-1j6cs7v.s4bzr7wrk9/package.tgz",
         "scope": null,
         "escapedName": null,
         "name": null,
-        "rawSpec": "/tmp/d-117526-3514-h5i3h0.xcqxkfn7b9/package.tgz",
-        "spec": "/tmp/d-117526-3514-h5i3h0.xcqxkfn7b9/package.tgz",
+        "rawSpec": "/tmp/d-117118-22991-1j6cs7v.s4bzr7wrk9/package.tgz",
+        "spec": "/tmp/d-117118-22991-1j6cs7v.s4bzr7wrk9/package.tgz",
         "type": "local"
       },
-      "/tmp/apm-install-dir-117526-3514-nyx8kg.uiputsm7vi"
+      "/tmp/apm-install-dir-117118-22991-3nqw3y.c80xljif6r"
     ]
   ],
-  "_from": "../d-117526-3514-h5i3h0.xcqxkfn7b9/package.tgz",
-  "_id": "language-blade@0.32.0",
+  "_from": "../d-117118-22991-1j6cs7v.s4bzr7wrk9/package.tgz",
+  "_id": "language-blade@0.38.0",
   "_inCache": true,
   "_location": "/language-blade",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "/tmp/d-117526-3514-h5i3h0.xcqxkfn7b9/package.tgz",
+    "raw": "/tmp/d-117118-22991-1j6cs7v.s4bzr7wrk9/package.tgz",
     "scope": null,
     "escapedName": null,
     "name": null,
-    "rawSpec": "/tmp/d-117526-3514-h5i3h0.xcqxkfn7b9/package.tgz",
-    "spec": "/tmp/d-117526-3514-h5i3h0.xcqxkfn7b9/package.tgz",
+    "rawSpec": "/tmp/d-117118-22991-1j6cs7v.s4bzr7wrk9/package.tgz",
+    "spec": "/tmp/d-117118-22991-1j6cs7v.s4bzr7wrk9/package.tgz",
     "type": "local"
   },
   "_requiredBy": [
     "#USER"
   ],
-  "_resolved": "file:../d-117526-3514-h5i3h0.xcqxkfn7b9/package.tgz",
-  "_shasum": "4322659114545f72ce4854b94bc0aca6bfe9acf3",
+  "_resolved": "file:../d-117118-22991-1j6cs7v.s4bzr7wrk9/package.tgz",
+  "_shasum": "dff615c10fa2c39405faf9aa991433646ac633a5",
   "_shrinkwrap": null,
-  "_spec": "/tmp/d-117526-3514-h5i3h0.xcqxkfn7b9/package.tgz",
-  "_where": "/tmp/apm-install-dir-117526-3514-nyx8kg.uiputsm7vi",
+  "_spec": "/tmp/d-117118-22991-1j6cs7v.s4bzr7wrk9/package.tgz",
+  "_where": "/tmp/apm-install-dir-117118-22991-3nqw3y.c80xljif6r",
   "bugs": {
     "url": "https://github.com/jawee/language-blade/issues"
   },
@@ -55,18 +55,5 @@
     "type": "git",
     "url": "git+https://github.com/jawee/language-blade.git"
   },
-  "version": "0.32.0",
-  "_atomModuleCache": {
-    "version": 1,
-    "dependencies": [],
-    "extensions": {
-      ".js": [
-        "lib/language-blade.js"
-      ],
-      ".json": [
-        "package.json"
-      ]
-    },
-    "folders": []
-  }
+  "version": "0.38.0"
 }

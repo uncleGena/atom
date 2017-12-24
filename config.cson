@@ -1,10 +1,22 @@
 "*":
   "Remote-FTP":
-    showViewOnStartup: false
+    notifications:
+      enableTransfer: true
+      enableWatchFileChange: true
+    showViewOnStartup: true
+    tree:
+      showViewOnStartup: false
+      useDockIntegration: true
   "atom-beautify":
     general:
       _analyticsUserId: "341d26aa-d0aa-4992-aa5f-9f80c4cb2802"
-    php: {}
+    go:
+      beautify_on_save: true
+    php:
+      beautify_on_save: true
+    sql:
+      beautify_on_save: true
+    vue: {}
   "atom-material-ui":
     colors:
       abaseColor: "#403f3a"
@@ -19,30 +31,46 @@
   "base16-syntax": {}
   core:
     disabledPackages: [
-      "remote-sync"
       "language-javascript-jsx"
-      "atom-beautify"
     ]
     openEmptyEditorOnStart: false
     telemetryConsent: "limited"
     themes: [
-      "atom-material-ui"
+      "one-dark-ui"
       "base16-syntax"
     ]
     warnOnLargeFileLimit: 1
   docblockr:
     auto_add_method_tag: true
-    deep_indent: true
     extend_double_slash: false
+    per_section_indent: true
   editor:
     fontFamily: "ubuntu mono"
     fontSize: 12
-    lineHeight: 1
+    lineHeight: 1.2
     scrollPastEnd: true
     showIndentGuide: true
+    softWrap: true
   "exception-reporting":
     userId: "b0562c41-5160-42cd-b152-e96a2623aee6"
   "file-icons": {}
+  "go-plus":
+    config: {}
+    panel:
+      currentHeight: "28.447121820615795vh"
+      currentWidth: "24.583333333333332vw"
+  linter:
+    lintOnChangeInterval: 500
+  "linter-eslint":
+    fixOnSave: true
+    lintHtmlFiles: true
+  "linter-flow":
+    executablePath: "/usr/local/bin/flow"
+  "linter-php":
+    executablePath: "/usr/bin/php"
+  "linter-ui-default":
+    panelHeight: 15.5
+    showPanel: true
   minimap:
     absoluteMode: true
     charHeight: 1
@@ -51,10 +79,13 @@
       "git-diffDecorationsZIndex": 0
       "highlight-selected": true
       "highlight-selectedDecorationsZIndex": 0
+      linter: true
+      linterDecorationsZIndex: 0
   "minimap-git-diff":
     useGutterDecoration: true
-  pigments:
-    markerType: "background"
+  "one-dark-ui":
+    fontSize: 11
+  pigments: {}
   "seti-syntax":
     dynamicColor: false
     themeColor: "Pink"
@@ -68,6 +99,8 @@
       "bower_components"
       "libs"
     ]
+  "tree-view":
+    hideIgnoredNames: true
   welcome:
     showOnStartup: false
 ".blade.html.php.text":

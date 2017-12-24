@@ -35,7 +35,7 @@
   'ctrl-shift-c': 'editor:toggle-line-comments'
 'atom-text-editor':
   'alt-shift-f': 'editor:auto-indent',
-  'alt-shift-d': 'jsdoc:block'
+  'alt-shift-d': 'jsdoc:block',
+  'ctrl-shift-x': 'block-comment:toggle' # Block Comment
 'atom-workspace':
-  'ctrl-shift-v': 'jsx-comment:toggleComment',
-  'ctrl-shift-x': 'word-art-comments:convert'
+  'ctrl-shift-v': 'jsx-comment:toggleComment'

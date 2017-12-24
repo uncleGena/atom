@@ -2,39 +2,39 @@
   "_args": [
     [
       {
-        "raw": "/tmp/d-117519-9619-1nyiccb.god4rq9f6r/package.tgz",
+        "raw": "/tmp/d-11778-9789-1fc1bv5.13vb2tvs4i/package.tgz",
         "scope": null,
         "escapedName": null,
         "name": null,
-        "rawSpec": "/tmp/d-117519-9619-1nyiccb.god4rq9f6r/package.tgz",
-        "spec": "/tmp/d-117519-9619-1nyiccb.god4rq9f6r/package.tgz",
+        "rawSpec": "/tmp/d-11778-9789-1fc1bv5.13vb2tvs4i/package.tgz",
+        "spec": "/tmp/d-11778-9789-1fc1bv5.13vb2tvs4i/package.tgz",
         "type": "local"
       },
-      "/tmp/apm-install-dir-117519-9619-1tfbm0c.reb7bhjjor"
+      "/tmp/apm-install-dir-11778-9789-uxwq62.cd87low29"
     ]
   ],
-  "_from": "../d-117519-9619-1nyiccb.god4rq9f6r/package.tgz",
-  "_id": "language-vue@0.23.0",
+  "_from": "../d-11778-9789-1fc1bv5.13vb2tvs4i/package.tgz",
+  "_id": "language-vue@0.23.1",
   "_inCache": true,
   "_location": "/language-vue",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "/tmp/d-117519-9619-1nyiccb.god4rq9f6r/package.tgz",
+    "raw": "/tmp/d-11778-9789-1fc1bv5.13vb2tvs4i/package.tgz",
     "scope": null,
     "escapedName": null,
     "name": null,
-    "rawSpec": "/tmp/d-117519-9619-1nyiccb.god4rq9f6r/package.tgz",
-    "spec": "/tmp/d-117519-9619-1nyiccb.god4rq9f6r/package.tgz",
+    "rawSpec": "/tmp/d-11778-9789-1fc1bv5.13vb2tvs4i/package.tgz",
+    "spec": "/tmp/d-11778-9789-1fc1bv5.13vb2tvs4i/package.tgz",
     "type": "local"
   },
   "_requiredBy": [
     "#USER"
   ],
-  "_resolved": "file:../d-117519-9619-1nyiccb.god4rq9f6r/package.tgz",
-  "_shasum": "b5f284ec37b25991cb7271675e988737809f5358",
+  "_resolved": "file:../d-11778-9789-1fc1bv5.13vb2tvs4i/package.tgz",
+  "_shasum": "42bd35951d189fb7a434533de554cd89e1e3c71e",
   "_shrinkwrap": null,
-  "_spec": "/tmp/d-117519-9619-1nyiccb.god4rq9f6r/package.tgz",
-  "_where": "/tmp/apm-install-dir-117519-9619-1tfbm0c.reb7bhjjor",
+  "_spec": "/tmp/d-11778-9789-1fc1bv5.13vb2tvs4i/package.tgz",
+  "_where": "/tmp/apm-install-dir-11778-9789-uxwq62.cd87low29",
   "bugs": {
     "url": "https://github.com/hedefalk/atom-vue/issues"
   },
@@ -54,7 +54,7 @@
     "type": "git",
     "url": "git+https://github.com/hedefalk/atom-vue.git"
   },
-  "version": "0.23.0",
+  "version": "0.23.1",
   "_atomModuleCache": {
     "version": 1,
     "dependencies": [],
